@@ -9,14 +9,19 @@ export default class YourComponent extends Component {
   render() {
     return (
       <div style={divStyle}>
-		  <h1> Put your solution here!</h1>
+		  <h1> Mi solución</h1>
+      <div className = "row">
+        <div className = "col-md-12">
+          Hola perros
+        </div>
+      </div>
       </div>
     );
   }
 }
 
 var divStyle = {
-  border: 'red',
+  border: 'blue',
   borderWidth: 2,
   borderStyle: 'solid',
   padding: 20
